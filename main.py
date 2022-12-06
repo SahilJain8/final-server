@@ -38,7 +38,7 @@ course_data=[{"name":"CSE"},{"name":"AIML"},{"name":"ISE"},{"name":"MECH"},{"nam
 
 app=Flask(__name__)
 app.secret_key = "super secret key"
-app.config['SERVER_NAME'] = 'localhost:5000'
+
 #set up Cursor
 
 cursor = db.cursor()
