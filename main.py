@@ -120,7 +120,7 @@ def insert():
 
                 else:
                                 a,b=civil.count_civil(esc=ETC,pgc=ESC)
-                                if a>=4:
+                                if a>=120:
                                     flash("Seats are full for "+str(ESC))
                                     return redirect(url_for("home"))                  
                             
@@ -132,11 +132,12 @@ def insert():
                                                 cur.execute("INSERT INTO detail(Phone,name,dept,subj1,subj2,subj3,subj4,subj5,subj6,EngineeringScienceCource,EmgergingTechnologyCourse,ProgramingCourse)VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",(ph,Name,course_info,"Mathematics for CSE","Physics for CSE Stream","Principles of Programming Using C","Communicative English","Samskrutika Kannada/Balake Kannada","Engineering Exploration",ESC,ETC,None))
                                                 db.commit()
                                                 flash("Data Inserted Successfully")
+                                                return redirect(url_for('home'))
                                             except Exception as e:
                                                 flash(str(e))
                                                 return redirect(url_for('home'))
                                                     
-                                            return redirect(url_for('home'))
+                                            
                                         
                 if course_info=="AIML":
                                         try: 
@@ -196,7 +197,7 @@ def insert():
                                                 flash("Data Inserted Successfully")
                                                         
                                                 return redirect(url_for('home'))
-                                            except:
+                                            except Exception as e:
                                                 flash(str(e))
                                                 return redirect(url_for('home'))
                                                     
