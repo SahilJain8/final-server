@@ -109,20 +109,20 @@ def insert():
                                 a,b=CSEAIML.count(etc=ETC,esc=ESC)
                                 if ETC=="Renewable Energy Sources":
                                     if a>=1 :
-                                        flash("Seats are full for "+(ETC))
+                                        flash("Seats are full for "+(ETC)+".Choose another subject from the seats available list")
                                         return redirect(url_for("home"))
                                 if ETC=="Introduction to Nano Technology":
                                     if a>=1 :
-                                        flash("Seats are full for "+str(ETC))
+                                        flash("Seats are full for "+str(ETC)+".Choose another subject from the seats available list")
                                         return redirect(url_for("home"))
                                 elif a>=1:
-                                        flash("Seats are full for "+str(ETC))
+                                        flash("Seats are full for "+str(ETC)+".Choose another subject from the seats available list")
                                         return redirect(url_for("home"))
 
                 else:
                                 a,b=civil.count_civil(esc=ETC,pgc=ESC)
                                 if a>=1:
-                                    flash("Seats are full for "+str(ESC))
+                                    flash("Seats are full for "+str(ESC)+".Choose another subject from the seats available list")
                                     return redirect(url_for("home"))                  
                             
 
