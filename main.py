@@ -108,20 +108,20 @@ def insert():
                 if course_info=="CSE" or course_info=="AIML" or course_info=="ISE":
                                 a,b=CSEAIML.count(etc=ETC,esc=ESC)
                                 if ETC=="Renewable Energy Sources":
-                                    if a>=120 :
+                                    if a>=1 :
                                         flash("Seats are full for "+(ETC))
                                         return redirect(url_for("home"))
                                 if ETC=="Introduction to Nano Technology":
-                                    if a>=180 :
+                                    if a>=1 :
                                         flash("Seats are full for "+str(ETC))
                                         return redirect(url_for("home"))
-                                elif a>=60:
+                                elif a>=1:
                                         flash("Seats are full for "+str(ETC))
                                         return redirect(url_for("home"))
 
                 else:
                                 a,b=civil.count_civil(esc=ETC,pgc=ESC)
-                                if a>=120:
+                                if a>=1:
                                     flash("Seats are full for "+str(ESC))
                                     return redirect(url_for("home"))                  
                             
