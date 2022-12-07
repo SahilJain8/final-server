@@ -132,7 +132,7 @@ def insert():
                                             try:
                                                 cur.execute("INSERT INTO detail(Phone,name,dept,subj1,subj2,subj3,subj4,subj5,subj6,EngineeringScienceCource,EmgergingTechnologyCourse,ProgramingCourse)VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",(ph,Name,course_info,"Mathematics for CSE","Physics for CSE Stream","Principles of Programming Using C","Communicative English","Samskrutika Kannada/Balake Kannada","Engineering Exploration",ESC,ETC,None))
                                                 db.commit()
-                                                flash("Data Inserted Successfully")
+                                                flash("Data Submited Successfully")
                                                 return redirect(url_for('home'))
                                             except Exception as e:
                                                 flash(str(e))
@@ -144,7 +144,7 @@ def insert():
                                         try: 
                                             cur.execute("INSERT INTO detail(Phone,name,dept,subj1,subj2,subj3,subj4,subj5,subj6,EngineeringScienceCource,EmgergingTechnologyCourse,ProgramingCourse)VALUES(%s, %s, %s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",(ph,Name,course_info,"Mathematics for CSE","Physics for CSE Stream","Principles of Programming Using C","Communicative English","Samskrutika Kannada/Balake Kannada","Engineering Exploration",ESC,ETC,None))
                                             db.commit()
-                                            flash("Data Inserted Successfully")
+                                            flash("Data Submited Successfully")
                                                     
                                             return redirect(url_for('home'))
                                         except Exception as e:
@@ -157,7 +157,7 @@ def insert():
                                             try: 
                                                     cur.execute("INSERT INTO detail(Phone,name,dept,subj1,subj2,subj3,subj4,subj5,subj6,EngineeringScienceCource,EmgergingTechnologyCourse,ProgramingCourse)VALUES(%s, %s, %s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",(ph,Name,course_info,"Mathematics for CSE","Physics for CSE Stream","Principles of Programming Using C","Communicative English","Samskrutika Kannada/Balake Kannada","Engineering Exploration",ESC,ETC,None))
                                                     db.commit()
-                                                    flash("Data Inserted Successfully")
+                                                    flash("Data Submited Successfully")
                                                     
                                                     return redirect(url_for('home'))
                                             except Exception as e:
@@ -174,7 +174,7 @@ def insert():
                                                                 "Indian Constitution",
                                                                 "Social Innovation",ETC,None,ESC))
                                                 db.commit()
-                                                flash("Data Inserted Successfully")
+                                                flash("Data Submited Successfully")
                                                         
                                                 return redirect(url_for('home'))
                                             except Exception as e:
@@ -195,7 +195,7 @@ def insert():
                                                                 "Social Innovation",ETC,None,ESC))
 
                                                 db.commit()
-                                                flash("Data Inserted Successfully")
+                                                flash("Data Submited Successfully")
                                                         
                                                 return redirect(url_for('home'))
                                             except Exception as e:
@@ -210,7 +210,7 @@ def insert():
                                             try:
                                                 cur.execute("INSERT INTO  detail (Phone,name,dept,subj1,subj2,subj3,subj4,subj5,subj6,EngineeringScienceCource,EmgergingTechnologyCourse,ProgramingCourse) VALUES (%s, %s,%s, %s,%s,%s,%s,%s,%s,%s,%s,%s)",( ph,Name,"EEE","Mathematics for EES-I","Chemistry for EES","Computer-Aided Engineering Drawing","Communicative English-I","Indian Constitution","Social Innovationc",ETC,None,ESC))
                                                 db.commit()
-                                                flash("Data Inserted Successfully")
+                                                flash("Data Submited Successfully")
                                                 return redirect(url_for('home'))  
                                             except Exception as e:
                                                 flash(str(e))
@@ -227,7 +227,7 @@ def insert():
                                                     "Engineering Exploration",ETC,None,ESC))
             
                                                     db.commit()
-                                                    flash("Data Inserted Successfully")
+                                                    flash("Data Submited Successfully")
                                     
                                     
                                     
