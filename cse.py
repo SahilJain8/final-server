@@ -23,8 +23,8 @@ def in_CSE(ph=None,
 
 man_cse=[{"name":"22MATS11 - Mathematics for CSE" },
 {"name":"22PHYS12 - Physics for CSE Stream"},
-{"name":"22POP13 - Principles of Programming Using C"},
-{"name":"22CE16 - Communicative English - I "},
-{"name":"22KSK17 - Samskrutika Kannada/22KBK17 Balake Kannada"},
-{"name":"22EEX18 - Engineering Exploration "}]
+{"name":"22POPC13 - Principles of Programming Using C"},
+{"name":"22CENG16 - Communicative English - I "},
+{"name":"22SKAN17 - Samskrutika Kannada/22BKAN17 Balake Kannada"},
+{"name":"22EEXP18 - Engineering Exploration "}]
 
