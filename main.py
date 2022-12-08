@@ -34,8 +34,7 @@ progcour=["Introduction to Web Programming",
 
 save={}
 
-course_data=[{"name":"CSE"},{"name":"AIML"},{"name":"ISE"}]
-#              {"name":"MECH"},{"name":"EEE"},{"name":"ECE"},{"name":"CIVIL"}]
+course_data=[{"name":"CSE"},{"name":"AIML"},{"name":"ISE"} , {"name":"MECH"},{"name":"EEE"},{"name":"ECE"},{"name":"CIVIL"}]
 
 app=Flask(__name__)
 app.secret_key = "super secret key"
