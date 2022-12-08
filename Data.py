@@ -56,14 +56,14 @@ mech_open=[
   {"name":"22PLC15D - Introduction to C++ Programming", "value":"Introduction to C++ Programming"}
 ]
  
-ece_open=[
+ece_pro=[
   {"name":"22ESC141 - Introduction to Civil Engineering", "value":"Introduction to Civil Engineering"},
   {"name":"22ESC142 - Introduction to Electrical  Engineering", "value":"Introduction to Electrical Engineering"},
   {"name":"22ESC143 - Introduction to Mechanical Engineering", "value":"Introduction to Mechanical Engineering"},
   {"name":"22ESC144 - Introduction to C Programming", "value":"Introduction to C Programming"}
 ]
 
-ece_pro=[
+ece_open=[
   {"name":"22PLC15A - Introduction to Web Programming", "value":"Introduction to Web Programming"},
   {"name":"22PLC15B - Introduction to Python Programming", "value":"Introduction to Python Programming"},
   {"name":"22PLC15C - Basics of JAVA Programming", "value":"Basics of JAVA Programming"},
