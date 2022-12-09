@@ -41,7 +41,7 @@ app.secret_key = "super secret key"
 
 #set up Cursor
 
-cursor = db.cursor()
+cursor = db.cursor()dheuehuwbwhw
 
 db.autocommit( 1 )
 cursor = db.cursor( pymysql.cursors.DictCursor )
