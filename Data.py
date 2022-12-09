@@ -7,10 +7,10 @@ cs_pro=[
 ]
 
 cs_open=[
-  {"name":"22ENSC141 - Introduction to Civil Engineering", "value":"Introduction to Civil Engineering"},
-  {"name":"22ENSC142 - Introduction to Electrical Engineering", "value":"Introduction to Electrical Engineering"},
-  {"name":"22ENSC143 - Introduction to Electronics Engineering", "value":"Introduction to Electronics Engineering"},
-  {"name":"22ENSC144 - Introduction to Mechanical Engineering", "value":"Introduction to Mechanical Engineering"}
+  {"name":"22ESCV14 - Introduction to Civil Engineering", "value":"Introduction to Civil Engineering"},
+  {"name":"22ESEE14 - Introduction to Electrical Engineering", "value":"Introduction to Electrical Engineering"},
+  {"name":"22ESEC14 - Introduction to Electronics Engineering", "value":"Introduction to Electronics Engineering"},
+  {"name":"22ESME14 - Introduction to Mechanical Engineering", "value":"Introduction to Mechanical Engineering"}
 ]
 
 
