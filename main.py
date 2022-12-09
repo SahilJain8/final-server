@@ -32,7 +32,7 @@ progcour=["Introduction to Web Programming",
  "Introduction to C++ Programming"
 ]
 
-save={}
+save={};
 
 course_data=[{"name":"CSE"},{"name":"AIML"},{"name":"ISE"} ]#, {"name":"MECH"},{"name":"EEE"},{"name":"ECE"},{"name":"CIVIL"}]
 
