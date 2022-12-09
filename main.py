@@ -52,6 +52,7 @@ cur=db.cursor()
 @app.route('/')
 @app.route('/index')
 def home():
+    sleep(1)
     
     for data in progcour:
         cur.execute(("select  count(ProgramingCourse) from detail where ProgramingCourse=%s"),(str(data)) )
@@ -88,7 +89,7 @@ def about():
 @app.route('/insert', methods = ['GET','POST'])
 def insert():
     
-    sleep(1)
+   
     if request.method == "POST":
             new_thread=NewThreadedTask()
             new_thread.start()
