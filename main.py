@@ -89,6 +89,9 @@ def insert():
     
  
     if request.method == "POST":
+            new_thread=NewThreadedTask()
+            new_thread.start()
+            new_thread.join()
         
             ph=request.form['Phone']
           
