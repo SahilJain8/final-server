@@ -52,7 +52,7 @@ cur=db.cursor()
 @app.route('/')
 @app.route('/index')
 def home():
-    sleep(1)
+ 
     
     for data in progcour:
         cur.execute(("select  count(ProgramingCourse) from detail where ProgramingCourse=%s"),(str(data)) )
@@ -91,9 +91,7 @@ def insert():
     
    
     if request.method == "POST":
-            new_thread=NewThreadedTask()
-            new_thread.start()
-            new_thread.join()
+           
         
             ph=request.form['Phone']
           
