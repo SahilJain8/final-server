@@ -280,7 +280,7 @@ def course():
         if course_info=='ECE':
             return render_template("index.html",man=man_ece,head="Engineering Science Courses",data=ece_open,main="Engineering Science Courses",EmergingTechnologyCourses=ece_pro,course=course,data_course=ece_pro,data_course_science=ece_open,ece_img=True)
         else:
-            flash("select a course")
+            flash("Kindly select your department")
             return redirect(url_for('home'))
 
 if __name__=="__main__":
