@@ -4,6 +4,7 @@ from flask import Flask,render_template,jsonify,request,flash,redirect,url_for
 from Data import *
 from civil import in_civil,man_civil
 from db import db
+from time import sleep
 from mech import in_mech,man_mech
 from eee import in_EEE,man_eee
 from ece import in_ECE,man_ece
@@ -87,7 +88,7 @@ def about():
 @app.route('/insert', methods = ['GET','POST'])
 def insert():
     
- 
+    sleep(1)
     if request.method == "POST":
             new_thread=NewThreadedTask()
             new_thread.start()
