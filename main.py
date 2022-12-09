@@ -117,7 +117,7 @@ def insert():
                                     if a>=180 :
                                         flash("Seats are full for "+str(ETC)+".Choose another subject from the seats available list")
                                         return redirect(url_for("home"))
-                                elif a>=1:
+                                elif a>=60:
                                         flash("Seats are full for "+str(ETC)+". Choose another subject from the seats available list")
                                         return redirect(url_for("home"))
 
