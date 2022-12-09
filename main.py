@@ -242,7 +242,7 @@ def insert():
                                                     flash(str(e))
                                                     return redirect(url_for('home')) 
             else:
-                    flash("invalid number")
+                    flash("Invalid number/Try again !")
                     return redirect(url_for('home'))                 
                 
                     
