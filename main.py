@@ -1,5 +1,5 @@
 import pymysql
-from thread import NewThreadedT
+from thread import NewThreadedTask
 from flask import Flask,render_template,jsonify,request,flash,redirect,url_for
 from Data import *
 from civil import in_civil,man_civil
